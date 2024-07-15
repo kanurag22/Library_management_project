@@ -15,4 +15,7 @@ clean:
 	-rm *.o
 	-rm lib
 	-rm *.save*
+	-rm .*swp*
+	-rm .*swo*
+	-rm *.gch*
 
