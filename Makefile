@@ -14,3 +14,6 @@ lib:${DEP}
 clean:
 	-rm *.o
 	-rm lib
+	-rm *.save*
+	-rm *.gch*
+
