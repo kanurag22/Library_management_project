@@ -35,7 +35,7 @@ void Book::get_book()
     pub_name[125] = '\0';
 
     int state;
-    cout<<"Enter state (0 for ON_SHELF , 1 for CHECK_OUT)";
+    cout<<"Enter state (0 for ON_SHELF , 1 for CHECK_OUT) : ";
     cin>>state;
     book_state = static_cast<State>(state);
     cin.ignore();

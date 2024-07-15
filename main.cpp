@@ -13,6 +13,7 @@ int main()
     {
         ch = l.main_menu();
         l.add_book();
+        l.display_book();
     }
 #ifdef DEBUG
     cout<<"End : "<<__func__<<endl;

@@ -1,9 +1,9 @@
 #!/bin/bash
 
 CC=g++
-CF=-DDEBUG
+#CF=-DDEBUG
 DF=-Wall
-DEP= get_book.o add_book.o lib_main_menu.o const_zero_book.o const_zero_dvd.o const_zero_periodical.o main.o
+DEP= display_book.o show_book.o get_book.o add_book.o lib_main_menu.o const_zero_book.o const_zero_dvd.o const_zero_periodical.o main.o
 
 lib:${DEP}
 	${CC} ${CF} ${DF} -o lib ${DEP}

@@ -25,6 +25,7 @@ class Book
     public:
         Book();
         void get_book();
+        void show_book();
 };
 
 class Periodical
@@ -61,4 +62,5 @@ class Library:public Book
     public:
         int main_menu();
         void add_book();
+        void display_book();
 };
