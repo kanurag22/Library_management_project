@@ -24,6 +24,7 @@ class Book
         State book_state;
     public:
         Book();
+        void get_book();
 };
 
 class Periodical
@@ -51,12 +52,13 @@ class Dvd
         Dvd();
 };
 
-class Library
+class Library:public Book
 {
     private:
         Book b_obj;
         Dvd  d_obj;
         Periodical p_obj;
     public:
-
+        int main_menu();
+        void add_book();
 };
